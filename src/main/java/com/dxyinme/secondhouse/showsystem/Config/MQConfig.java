@@ -10,9 +10,4 @@ import javax.jms.Destination;
 @Configuration
 public class MQConfig {
 
-    @Bean
-    public Destination queueInsert() {
-        return new ActiveMQQueue("commentInsert");
-    }
-
 }
